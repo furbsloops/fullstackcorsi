@@ -1,0 +1,78 @@
+Per inserire una casella di testo ad area limitata, quindi senza che occupi l'intera larghezza della pagina
+possiamo usare comandi diversi da quelli visti inizialmente:
+
+tag <span>
+
+esempio
+
+<p> Hello <span> Beautiful </span> World </p>
+
+
+Display Property
+
+h2 {
+
+display: block
+
+}
+
+l'elemento "block" ci consente di impostare altezza e larghezza
+
+l'aspetto "inline" dell'impostazione ci permette di avere elementi che proseguono sulla stessa riga
+
+la proprietà "none" può far sparire qualsiasi elemento sullo schermo
+
+
+Se abbiamo 3 cubi e li vogliamo allineati nella stessa riga potremo usare "inline-block":
+
+.red {
+      display: inline-block;
+      width: 200px;
+      height: 200px;
+      background-color: red;
+    }
+
+    .green {
+      display: inline-block;
+      width: 200px;
+      height: 200px;
+      background-color: green;
+    }
+
+    .blue {
+      display: inline-block;
+      width: 200px;
+      height: 200px;
+      background-color: blue;
+    }
+
+Se abbiamo 3 cubi e li vogliamo vedere in fila uno sopra l'altro potremo usare "block"
+
+.red {
+      display: block;
+      width: 200px;
+      height: 200px;
+      background-color: red;
+    }
+
+    .green {
+      display: block;
+      width: 200px;
+      height: 200px;
+      background-color: green;
+    }
+
+    .blue {
+      display: block;
+      width: 200px;
+      height: 200px;
+      background-color: blue;
+    }
+
+
+Se la visualizzazione è impostata su "inline" non rispetterà l'altezza e la larghezza
+
+Se vogliamo un layout verticale non potremo usare "inline"
+
+
+

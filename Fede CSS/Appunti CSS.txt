@@ -1,0 +1,84 @@
+Element Selector
+
+h1{
+  
+  color:blue
+  
+  }
+
+
+In questo caso specificando "h1" indicheremo di stilizzare come indicato i termini anticipati da "h1"
+
+Possiamo quindi agganciarci ad ogni tag desiderato
+
+
+
+
+Class Selector
+
+
+.red-heading{
+  color:red
+}
+
+
+Assegnamo quindi una classe al file desiderato nel file Html
+
+<h2 class="red-text">TESTO</h2>
+
+
+Mentre nel file CSS specificheremo
+
+.red-text{
+   color:red;
+}
+
+
+
+ID Selector
+
+#main {
+ color:red
+}
+
+
+
+
+Differenza tra selettore di classe e selettore ID:
+
+Il selettore di classe puo' essere applicato a molti elementi
+mentre quello ID dovrebbe essere applicato solo ad un elemento
+
+
+Attribute Selector
+
+p[draggable]{
+  color:red
+}
+
+Esempi di attributi:
+
+id= src= class= draggable= href= alt= 
+
+l'esempio sopra selezionera tutti gli elementi di paragrafo con l'attributo "draggable"
+Possiamo inoltre aggiungere un eventuale valore "true o false" per differenziare 
+
+File Html
+<p draggable="true">Drag me</p>
+<p draggable="false">Don't drag me</p>
+<p draggable="false">Don't drag me</p>
+
+File CSS
+p[draggable="false"]{
+  color:red
+}
+
+
+
+Universal Selector
+
+*{
+ color:red
+}
+
+* = Select all

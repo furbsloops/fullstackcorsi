@@ -1,0 +1,43 @@
+Font Properties
+
+h1{
+color:blue
+font-weight: bold
+font-size:20px
+font-family:sans-serif
+}
+
+
+1 px pixel = 1/96th inch "pollici" 
+
+1 pollice = 0.26mm
+
+
+1 pt point = 1/72nd inch
+
+1 point = 0.35mm
+
+
+1 em = larghezza lettera "m"
+
+se ho un riferimento di 20px
+impostando il valore 1em avro' un elemento da 20 px
+impostando il valore a 2em invece equivarra' a 40 px
+si basa quindi sulle dimensioni del suo "genitore"
+
+
+1 rem invece si bassa sulle dimensioni impostate nell'elemento Html
+ed e' un modo piu' coerenete di cambiare le dimensioni
+
+
+fonts.google.com per trovare fonts
+
+
+possiamo importare font sotto il campo di chiusura Style
+
+Esempio
+
+</style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Nandinagari&display=swap" rel="stylesheet">

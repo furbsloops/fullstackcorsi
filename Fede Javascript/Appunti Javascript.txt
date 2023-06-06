@@ -1,0 +1,9 @@
+Tipi di variabili:
+
+numeri, stringhe, boolean, array, oggetti
+
+
+const
+
+costante per elementi che non devono cambiare nel tempo
+come l'indirizzo del nostro database

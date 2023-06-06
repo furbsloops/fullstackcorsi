@@ -1,0 +1,26 @@
+<h> 1,2,3,4,5,6 per la suddivisione di grandezza/importanza dei termini
+
+<p> suddivisione dei paragrafi
+
+
+avoid "elementi vuoti"
+
+<hr /> divisione grafica "divisone con linea"
+<br /> delimitare la lunghezza delle righe di testo
+
+<ol> creazione elenco </ol> chiusura elenco ORDINATO "numerato" 
+<ol start="4"> per cambiare il numero di partenza della lista
+<ul> creazione elenco </ul> chiusura elenco NON ORDINATO "pallini"
+<li> elementi da elencare </li> chiusura elemento da elencare
+
+Ancoraggio collegamenti ipertestuali
+<a href="link"> "messaggio" </a>
+
+Inserimento immagini
+<img src="url" />
+l'elemento immagine e' un tag "nullo" che non ha elemento di chiusura
+alt= e' un attributo e riguarda la descrizione alternativa del contenuto *necessario per non vedenti*
+alt="testo descrizione"
+
+
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#attr-height -->

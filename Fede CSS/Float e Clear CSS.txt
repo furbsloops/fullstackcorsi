@@ -1,0 +1,34 @@
+Float property
+
+Aggiungendo questa proprietà ad un elemento immagine, la faremo avvolgere dal testo desiderato
+non dobbiamo aggiungere alcuna proprietà al testo ma solamente al file img
+
+Esempio:
+
+img {
+  float: left oppure right oppure both;
+}
+
+l'immagine resterà sulla sinistra del testo
+
+imgimgimgimgimg txttxttxttxttxttxt
+imgimgimgimgimg txttxttxttxttxttxt
+imgimgimgimgimg txttxttxttxttxttxt
+imgimgimgimgimg txttxttxttxttxttxt
+imgimgimgimgimg txttxttxttxttxttxt
+imgimgimgimgimg txttxttxttxttxttxt
+txttxttxttxttxttxttxttxttxttxttxttxt
+txttxttxttxttxttxttxttxttxttxttxttxt
+txttxttxttxttxttxttxttxttxttxttxttxt
+
+img {
+  float: right;
+}
+sarà quindi l'opposto
+
+
+
+Clear 
+
+elimina qualsiasi responsabilità di avvolgere cose che "galleggano" "float"
+

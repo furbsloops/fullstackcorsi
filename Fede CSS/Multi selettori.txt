@@ -1,0 +1,38 @@
+Group = Apply to both selectors
+
+
+selector, selector {
+   color: blueviolet;
+}
+
+
+Parent and Child
+
+selector > selector {
+  color: firebrick;
+}
+
+Descendant
+
+selector selector {
+  color:  blue;
+}
+
+
+Chaining
+
+selectorselector {
+   color: seagreen;
+}
+
+esempio:
+<h1 id="title" class="big heading">Hello World</h1>
+
+diventerà:
+h1#title.big.heading {
+color. seagreen;
+}
+
+. per classi # per ID   niente per elemento
+
+iniziare sempre con l'elememento "h1 in questo caso"

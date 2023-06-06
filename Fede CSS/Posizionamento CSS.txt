@@ -1,0 +1,13 @@
+Relativo
+
+può essere spostato
+
+Assoluto
+
+Si rapporta al posizionamento del suo antenato
+"Z index terza dimensione"
+Se A ha un Z più alto di B, A si posizionerà sopra B
+
+Fixed
+
+Posizionamento relativo all'angolo alto sx della finestra del browser

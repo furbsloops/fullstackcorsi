@@ -1,0 +1,24 @@
+Impostare colore sfondo
+
+
+ body
+       {
+background:antiquewhite;
+       }
+
+
+Cambiare colore e sfondo ad H1
+
+  h1
+      {
+  color:whitesmoke;
+  background-color:darkseagreen;
+      }
+  
+Cambiare colore e sfondo ad H2
+
+  h2
+      {
+  color:#FAF8F1;
+  background-color:#C58940;
+     }

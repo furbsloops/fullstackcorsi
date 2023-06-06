@@ -1,0 +1,21 @@
+Posizionamento
+
+li {
+color: red;
+color: blue;
+}
+
+Specificazione
+
+4 Element ---> li {color: blue;}
+3 class -----> .first-class {color: red;}
+2 attribute -> li [draggable] { color: purple;}
+1 id --------> #first-id {color: orange;}
+
+tendenzialmente dovrebbe esserci solo un campo # per ogni pagina web
+
+Tipo
+
+<link rel="stylesheet" href="./style.css">
+<style> </style>
+<h1 style= " ">Hello</h1>

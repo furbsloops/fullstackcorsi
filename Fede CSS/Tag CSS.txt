@@ -1,0 +1,24 @@
+External CSS File per un intero sito
+<Link "apertura per linkare"
+   
+    rel="stylesheet"      <--Ruolo del collegamento a cui ci stiamo collegando
+    href="./styles.css"   <--collegamento al file CSS esterno
+/>     <--Chiusura Link
+
+
+Inline per un singolo elemento
+<html style="background:blue">
+</html>
+
+
+
+Internal per un'intera pagina
+<html>
+    <head> 
+        <style>
+               html {
+                background:red;
+               }
+        </style>
+    </head>
+</html>

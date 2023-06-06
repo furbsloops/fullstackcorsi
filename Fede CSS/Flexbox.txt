@@ -1,0 +1,53 @@
+display: flex
+
+Gli elementi racchiusi nel contenitore verranno distribuiti in linea
+occupando tutta la grandezza dello schermo
+i valori di ciascun elemento andranno specificati al suo interno
+
+
+display: inline-flex
+
+Gli elementi racchiusi nel contenitore verranno distribuiti in linea
+occupando uno spazio a nostra scelta e lasciandone altro accanto
+per ulteriori contenuti 
+
+
+Esempio:
+
+index.html
+
+<div class="container">
+  <div class="one"><p>...</p></div>
+  <div class="two"><p>...</p></div>
+  <div class="three"><p>...</p></div>
+</div>
+
+
+styles.css 
+"per flex"
+
+.container {
+  display: flex;
+  gap: 10px;
+}
+
+styles.css
+"per inline flex"
+
+.container {
+  display: inline-flex;
+  gap: 10px;
+}
+
+
+Possiamo decidere la direzione di estensione del nostro flexbox:
+
+flex-direction: row ----->
+
+flex-basis: 100px "renderà la larghezza della base di ogni elemento pari alla grandezza impostata"
+
+main-axis: 100px
+
+
+
+flex-direction: 
